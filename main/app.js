@@ -104,7 +104,7 @@ app.post('/food-items', async (req, res) => {
     }
     catch(err){
         // TODO
-        res.status(500).send({'message': 'Server error'})
+        
     }
 })
 
